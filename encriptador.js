@@ -1,6 +1,5 @@
-
 function soloMinusculas(texto) {
-    return /^[a-z]+$/.test(texto);
+    return /^[a-z\s]+$/.test(texto);
 }
 
 

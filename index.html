@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    <script src="https://kit.fontawesome.com/f624db52ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="./imagenes/Logo.png" class="logo" alt="logo de Alura">
+    </header>
+    <main>
+        <section class="contenedor__izquierdo">
+            <textarea cols="40" rows="6" type="texto" placeholder="Ingrese el texto aquí" class="palabra__inicial" id="texto__ingresado"></textarea>
+            <div class="inline-elements">
+                <img class="icono__exclamacion" src="./imagenes/bi_exclamation-circle-fill.png" alt="Icono">
+                <p id="mensaje-error">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="inline-elements">
+                <button type="texto" id="encriptar__texto" onclick="encriptar()">Encriptar</button>
+                <button type="texto" id="desencriptar__texto" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="contenedor__derecho">
+            <textarea cols="15" rows="15" name="resultado__encriptado" id="texto__encriptado"></textarea>
+            <img src="./imagenes/Muñeco.png" alt="imagen_de_muñeco" id="muneco">
+            <div id="mensaje-adicional">
+                <h1>Ningún mensaje fue encontrado</h1>
+                <p class="ingrese__texto">Ingrese el texto que desee encriptar o desencriptar.</p>
+            </div>
+            <button type="texto" id="btn-copiar" onclick="copiarResultado()">Copiar</button>
+            <button type="texto" id="btn-limpiar" onclick="limpiar()">Limpiar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Desarrollado por Matías Sebastián Martínez Torres.</p><a href="https://github.com/Sebadev-7" target="_blank"><i class="fa-brands fa-github"></i></a></p><a href="https://linkedin.com/in/sebastiandeveloper" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>

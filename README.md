@@ -39,7 +39,7 @@ Instalación y Uso
 ## **Clonar el repositorio:**
 bash
 Copiar código
-git clone https://github.com/Sebadev-7/Encriptador.git
+git clone https://github.com/Sebadev-7/encriptador.git
 
 ## **Abrir el proyecto:**
 

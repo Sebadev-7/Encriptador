@@ -5,7 +5,7 @@ Esta aplicación web permite encriptar y desencriptar texto utilizando una serie
 
 ## **Funcionalidades**
 Encriptar texto: Ingresar un texto en minúsculas y sin acentos, y encriptarlo al pulsar el botón "Encriptar".
-## Galería de Imágenes
+## Galería de Imágenes de funcionamiento
 
 ## Capturas de Pantalla
 
